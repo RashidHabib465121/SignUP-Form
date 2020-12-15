@@ -1,0 +1,241 @@
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main_container
+{
+    width: 100%;
+    height: 100vh;
+    background: #c5cde2;
+}
+.login-form-container
+{
+    width: 90%;
+    height: 90%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 30px;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.left-side
+{
+    width: 45%;
+    height: 100%;
+    /* border: 1px solid red; */
+    position: relative;
+}
+.right-side
+{
+    width: 55%;
+   
+    /* border: 1px solid green; */
+}
+
+.inner-form-content
+{
+    width: 80%;
+    height: 90%;
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title
+{
+    color: #281773;
+    font-family: 'Roboto';
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+.sub-title
+{
+    position: relative;
+    color: #e9496b;
+    font-family: 'Roboto';  
+    left: 60px;
+    top: 25px;
+}
+
+.sub-title::before
+{
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 1px;
+    background-color:#e9496b;
+    left: -60px;
+    top:10px;
+}
+
+.top-links
+{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.common-class
+{
+    width: 47%;
+    height: 40px;
+    border: 1px solid #f6f6f6;
+    text-align: center;
+    padding-top: 11px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.rectangle
+{
+    width: 15px;
+    height: 15px;
+    background-color: #fb4c53;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.google-link , .facebook-link
+{
+    color: #221d33;
+    text-decoration: none;
+    font-family: 'Roboto';  
+    font-size: 11px;
+}
+
+
+.input-felds
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.first-field , .second-field
+{
+    width: 47%;
+}
+label
+{
+    color: #221d33;
+    font-family: 'Roboto';
+    font-size: 11px;
+    padding-left: 7px;
+}
+.common-input
+{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #f6f6f6;
+    border-radius: 10px;
+    background: #fafbff;
+    margin-top: 7px;
+}
+.password-field
+{
+    margin-top: 20px;
+}
+.checkbox-field
+{
+    margin-top: 30px;
+}
+
+.policy-span
+{
+    padding-left: 33px;
+}
+input[type=checkbox] + label 
+{ 
+    cursor: pointer;
+  }
+  input[type=checkbox] 
+  {
+   appearance: none;
+   -webkit-appearance: none;
+   width: 20px;
+   height: 20px;
+   vertical-align: bottom;
+   transition: .2s;
+   border: transparent;
+   background: #fafbff;
+   border-radius: 5px;
+   outline: none;
+  }
+  input[type=checkbox]::after
+  {
+    content: "\2714";
+    font-size: 15px;
+    padding-left: 4px;
+    color: white;
+    display: none;
+  }
+  input[type=checkbox]:checked 
+  {
+    background-color: #fb4c53 !important;
+    border: none;
+    color:white !important;
+  } 
+  /* input[type=checkbox]:checked:focus
+  {
+    border: transparent !important;
+  } */
+  input[type=checkbox]:checked::after
+  {
+      display: block;
+  }
+.call-to-action-btn
+{
+    margin-top: 30px;
+}
+.arrow-link
+{
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: #fb4c53;
+    box-shadow: 0 4px 8px 0 rgba(251, 76, 83, 0.2), 0 6px 20px 0 rgba(251, 76, 83, 0.19);
+}
+.sign-up-link
+{
+    margin-top: 40px;
+    font-size: 11px;
+    font-family: 'Roboto';
+}
+.fa-arrow-right
+{
+    color: white;
+}
+.signup-link
+{
+    color: #fb4c53;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.right-side
+{
+    position: relative;
+}
+.red-rectangle
+{
+    display: inline-block;
+    width: 450px;
+    height: 450px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(251, 76, 83, 0.2), 0 6px 20px 0 rgba(251, 76, 83, 0.19);
+    background-color: #fb4c53;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+}
