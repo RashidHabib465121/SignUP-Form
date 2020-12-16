@@ -205,6 +205,7 @@ input[type=checkbox] + label
     border: none;
     background-color: #fb4c53;
     box-shadow: 0 4px 8px 0 rgba(251, 76, 83, 0.2), 0 6px 20px 0 rgba(251, 76, 83, 0.19);
+    outline: none;
 }
 .sign-up-link
 {
