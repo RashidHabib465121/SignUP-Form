@@ -138,6 +138,7 @@ label
     border-radius: 10px;
     background: #fafbff;
     margin-top: 7px;
+    outline: none;
 }
 .password-field
 {
